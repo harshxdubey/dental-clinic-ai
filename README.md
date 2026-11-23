@@ -235,3 +235,8 @@ The tests use a temporary database and a temporary copy of `data/`, never call t
 * Conversation memory is minimal: it only remembers the previous reply, so a "yes please" after "Would you like to book…?" works, but longer back-and-forth does not.
 * There is no real appointment calendar – bookings are always confirmed by a person.
 * Prices and doctors are dummy data. The AI is only as correct as the files in `data/`.
+
+## Live demo
+
+* **Live app (Vercel, dummy data, simulated WhatsApp):** https://dental-clinic-ai-steel.vercel.app — patient chat `/chat/`, receptionist dashboard `/dashboard/`, knowledge base `/knowledge/`.
+* On Vercel the database and knowledge-base edits live in temporary storage and reset when the serverless instance is recycled; the 8 sample conversations are reloaded on start. The dashboard has no login, so this deployment holds dummy data only. A second deployment recipe (Docker/Render) is in `render.yaml`.

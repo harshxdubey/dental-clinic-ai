@@ -9,3 +9,5 @@ submission/screenshots/*.png
 submission/*.zip
 submission/*.docx
 .vercel/
+.vercel
+.env*
