@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+clinic_ai.db
+.pytest_cache/
+.DS_Store
+submission/screenshots/*.png
+submission/*.zip
+submission/*.docx
+.vercel/

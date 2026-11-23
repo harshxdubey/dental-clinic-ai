@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dental Clinic AI Assistant – Pune</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230e7c86'/%3E%3Cpath fill='white' d='M12 6.2c-1-.8-2.3-1.2-3.6-1C6.4 5.5 5.4 7.3 5.6 9.4c.2 1.9.9 2.9 1.3 4.6.4 1.7.5 4.9 1.9 4.9 1.4 0 1.1-3 1.9-3.8.4-.5.8-.8 1.3-.8s.9.3 1.3.8c.8.8.5 3.8 1.9 3.8 1.4 0 1.5-3.2 1.9-4.9.4-1.7 1.1-2.7 1.3-4.6.2-2.1-.8-3.9-2.8-4.2-1.3-.2-2.6.2-3.6 1z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <style>
+    body { background: radial-gradient(1200px 500px at 50% -10%, #d6f0ee 0%, transparent 70%), var(--bg); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 36px 20px 56px; }
+    .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .hero { padding: 56px 0 36px; max-width: 700px; }
+    .hero h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.1; letter-spacing: -0.03em; }
+    .hero h1 span { color: var(--brand); }
+    .hero p { margin-top: 16px; font-size: 17px; color: var(--ink-soft); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card {
+      display: flex; flex-direction: column; gap: 10px; padding: 26px; border-radius: var(--radius-lg);
+      background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+      text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s, border-color .15s;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #b9d8dc; }
+    .card .icon { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand-dark); }
+    .card .icon svg { width: 24px; height: 24px; }
+    .card h2 { font-size: 20px; letter-spacing: -0.01em; }
+    .card p { color: var(--ink-soft); }
+    .card .go { margin-top: auto; padding-top: 8px; font-weight: 600; color: var(--brand-dark); }
+    .flow { margin-top: 44px; padding: 26px; border-radius: var(--radius-lg); background: var(--surface); border: 1px solid var(--line); }
+    .flow h2 { font-size: 17px; margin-bottom: 16px; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; list-style: none; padding: 0; margin: 0; counter-reset: s; }
+    .steps li { counter-increment: s; padding: 14px; border-radius: 14px; background: #f5fafa; border: 1px solid var(--line); font-size: 13.5px; color: var(--ink-soft); }
+    .steps li::before { content: counter(s); display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; margin-bottom: 8px; background: var(--brand); color: #fff; font-size: 12px; font-weight: 700; }
+    .steps b { display: block; color: var(--ink); font-size: 14.5px; margin-bottom: 2px; }
+    .foot { margin-top: 28px; font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 5.2c-1-.8-2.3-1.2-3.6-1C6.4 4.5 5.4 6.3 5.6 8.4c.2 1.9.9 2.9 1.3 4.6.4 1.7.5 4.9 1.9 4.9 1.4 0 1.1-3 1.9-3.8.4-.5.8-.8 1.3-.8s.9.3 1.3.8c.8.8.5 3.8 1.9 3.8 1.4 0 1.5-3.2 1.9-4.9.4-1.7 1.1-2.7 1.3-4.6.2-2.1-.8-3.9-2.8-4.2-1.3-.2-2.6.2-3.6 1z"/></svg></div>
+        <div><div class="brand-name">Dental Clinic AI Assistant</div><div class="brand-sub">Pune · student prototype</div></div>
+      </div>
+      <div class="tags">
+        <span class="chip chip-warn" id="waChip">WhatsApp is simulated</span>
+        <span class="chip chip-warn">Dummy clinic data</span>
+      </div>
+    </div>
+
+    <section class="hero">
+      <h1>Answer patient enquiries <span>instantly</span>, and keep your receptionist for what matters.</h1>
+      <p>The assistant reads each WhatsApp-style message, finds the answer in the clinic's own information, double-checks it, and either replies automatically or hands it to a person.</p>
+    </section>
+
+    <div class="cards">
+      <a class="card" href="/chat/">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+        <h2>Patient chat</h2>
+        <p>A WhatsApp-style window. Type a message as a patient and see the assistant reply.</p>
+        <span class="go">Open chat →</span>
+      </a>
+      <a class="card" href="/knowledge/">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 8h6M9 12h6"/></svg></div>
+        <h2>Knowledge base</h2>
+        <p>Add or update the clinic's prices, doctors and FAQs with simple forms, and test how a question is answered.</p>
+        <span class="go">Open knowledge base →</span>
+      </a>
+      <a class="card" href="/dashboard/">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></div>
+        <h2>Receptionist dashboard</h2>
+        <p>See every message, the AI's answer and its sources, approve drafts and handle escalations.</p>
+        <span class="go">Open dashboard →</span>
+      </a>
+    </div>
+
+    <section class="flow">
+      <h2>What happens to each message</h2>
+      <ol class="steps">
+        <li><b>Receive</b>Message arrives at the webhook</li>
+        <li><b>Classify</b>Price, doctor, timing, appointment, emergency…?</li>
+        <li><b>Retrieve</b>Find facts in the clinic knowledge base</li>
+        <li><b>Draft</b>Write an answer using only those facts</li>
+        <li><b>Verify</b>Check prices, safety and confidence</li>
+        <li><b>Route</b>Auto-reply, ask for approval, or escalate</li>
+      </ol>
+    </section>
+    <p class="foot">API documentation: <a href="/docs">/docs</a> · All clinic details, doctors and prices are dummy sample data until the real clinic details are added.</p>
+  </div>
+  <script>
+    fetch("/api/meta").then((r) => r.json()).then((meta) => {
+      const chip = document.getElementById("waChip"), wa = meta.whatsapp || {};
+      if (meta.whatsapp_mode === "cloud") {
+        const ready = wa.ready_to_receive && wa.ready_to_send;
+        chip.textContent = ready ? "WhatsApp: live (Cloud API)" : "WhatsApp: setup incomplete";
+        chip.className = "chip " + (ready ? "chip-ok" : "chip-danger");
+      }
+      if (!meta.dummy_entries) document.getElementById("dummyChip") && (document.getElementById("dummyChip").hidden = true);
+    }).catch(() => {});
+  </script>
+</body>
+</html>

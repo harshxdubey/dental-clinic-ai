@@ -1,0 +1,77 @@
+{
+  "_notice": "Contains DUMMY SAMPLE entries (marked \"dummy\": true). They are not real clinic information - replace them before real use.",
+  "doctors": [
+    {
+      "id": "dr_anjali_deshmukh",
+      "name": "Dr. Anjali Deshmukh",
+      "title": "Chief Dentist & Cosmetic Dentist",
+      "qualification": "BDS, MDS (Conservative Dentistry)",
+      "specialties": ["General dentistry", "Cosmetic dentistry", "Teeth whitening", "Crowns and fillings"],
+      "specialty_keywords": ["cosmetic dentist", "general dentist", "chief dentist", "smile design"],
+      "experience_years": 14,
+      "languages": ["English", "Hindi", "Marathi"],
+      "available_days": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+      "available_hours": "11:00 AM to 7:00 PM",
+      "dummy": true
+    },
+    {
+      "id": "dr_rahul_kulkarni",
+      "name": "Dr. Rahul Kulkarni",
+      "title": "Endodontist (Root Canal Specialist)",
+      "qualification": "BDS, MDS (Endodontics)",
+      "specialties": ["Root canal treatment", "Complex fillings", "Saving damaged teeth"],
+      "specialty_keywords": ["endodontist", "root canal specialist", "rct specialist", "root canal doctor"],
+      "experience_years": 10,
+      "languages": ["English", "Hindi", "Marathi"],
+      "available_days": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "available_hours": "10:00 AM to 4:00 PM",
+      "dummy": true
+    },
+    {
+      "id": "dr_neha_joshi",
+      "name": "Dr. Neha Joshi",
+      "title": "Orthodontist (Braces & Aligners Specialist)",
+      "qualification": "BDS, MDS (Orthodontics)",
+      "specialties": ["Metal and ceramic braces", "Clear aligners", "Bite correction"],
+      "specialty_keywords": ["orthodontist", "braces specialist", "braces doctor", "aligner specialist"],
+      "experience_years": 9,
+      "languages": ["English", "Hindi"],
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "available_hours": "2:00 PM to 8:00 PM",
+      "dummy": true
+    },
+    {
+      "id": "dr_sameer_patil",
+      "name": "Dr. Sameer Patil",
+      "title": "Oral Surgeon & Implant Specialist",
+      "qualification": "BDS, MDS (Oral & Maxillofacial Surgery)",
+      "specialties": ["Dental implants", "Wisdom tooth removal", "Surgical extractions"],
+      "specialty_keywords": ["oral surgeon", "implant specialist", "implantologist", "implant doctor", "surgeon"],
+      "experience_years": 12,
+      "languages": ["English", "Hindi", "Marathi"],
+      "available_days": ["Monday", "Wednesday", "Friday", "Saturday"],
+      "available_hours": "12:00 PM to 6:00 PM",
+      "dummy": true
+    },
+    {
+      "id": "dr_pooja_bhosale",
+      "name": "Dr. Pooja Bhosale",
+      "title": "Paediatric Dentist (Children's Specialist)",
+      "qualification": "BDS, MDS (Paediatric Dentistry)",
+      "specialties": ["Children's check-ups", "Fluoride treatment", "Preventive care for kids"],
+      "specialty_keywords": [
+        "pedodontist",
+        "paediatric dentist",
+        "pediatric dentist",
+        "kids dentist",
+        "child dentist",
+        "children's dentist"
+      ],
+      "experience_years": 7,
+      "languages": ["English", "Hindi", "Marathi"],
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "available_hours": "10:00 AM to 2:00 PM",
+      "dummy": true
+    }
+  ]
+}

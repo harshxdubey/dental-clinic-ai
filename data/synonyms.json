@@ -1,0 +1,18 @@
+{
+  "_notice": "Words that mean the same thing. The assistant treats every word in a group as the first word of that group, so a patient who types 'cost' finds information written with 'price'. Add or change groups freely - one group per line. This file is optional.",
+  "groups": [
+    ["price", "cost", "charge", "fee", "rate", "pricing", "expensive", "cheap", "afford", "kimat", "kharcha", "paise", "paisa"],
+    ["pain", "hurt", "ache", "painful", "sore", "discomfort", "dard"],
+    ["doctor", "dentist", "specialist"],
+    ["kid", "child", "children", "baby", "toddler", "paediatric", "pediatric", "bachon", "bachcha", "bachche", "bacche", "bachhe", "bachho", "bacha"],
+    ["hour", "timing", "schedule", "open", "opening", "close", "closing", "khulti", "khulta", "khulte", "khulna", "khulegi", "khulega", "band", "bandh", "ughadte", "ughadta"],
+    ["address", "location", "direction", "map", "locate"],
+    ["insurance", "mediclaim", "cashless", "tpa"],
+    ["emi", "instalment", "installment"],
+    ["sterile", "sterilise", "sterilize", "sterilised", "sterilized", "sterilisation", "sterilization", "hygiene", "hygienic", "autoclave"],
+    ["remove", "removal", "extract", "extraction", "pull"],
+    ["straighten", "straightening", "crooked", "alignment"],
+    ["whitening", "whiten", "bleach", "bleaching"],
+    ["xray", "radiograph", "radiation"]
+  ]
+}

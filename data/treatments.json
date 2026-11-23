@@ -1,0 +1,257 @@
+{
+  "_notice": "Contains DUMMY SAMPLE entries (marked \"dummy\": true). They are not real clinic information - replace them before real use.",
+  "treatments": [
+    {
+      "id": "consultation",
+      "name": "Dental Consultation & Check-up",
+      "short_name": "Consultation & check-up",
+      "aliases": [
+        "consultation",
+        "check up",
+        "checkup",
+        "check-up",
+        "dental checkup",
+        "first visit",
+        "examination",
+        "consult"
+      ],
+      "price_min": 500,
+      "price_max": 500,
+      "price_unit": "per visit",
+      "price_notes": "Includes an examination and treatment advice. X-rays, if needed, are charged separately.",
+      "duration": "20 to 30 minutes",
+      "description": "A full examination of your teeth and gums, with a clear explanation of what treatment (if any) you need.",
+      "handled_by": ["dr_anjali_deshmukh"],
+      "dummy": true
+    },
+    {
+      "id": "scaling",
+      "name": "Scaling & Polishing (Teeth Cleaning)",
+      "short_name": "Scaling & polishing",
+      "aliases": ["scaling", "polishing", "teeth cleaning", "dental cleaning", "cleaning", "tartar", "plaque"],
+      "price_min": 1200,
+      "price_max": 2000,
+      "price_unit": "per session",
+      "price_notes": "The price depends on how much tartar needs to be removed.",
+      "duration": "30 to 45 minutes",
+      "description": "Professional removal of plaque and tartar, followed by polishing to leave your teeth smooth and fresh.",
+      "handled_by": ["dr_anjali_deshmukh"],
+      "dummy": true
+    },
+    {
+      "id": "filling",
+      "name": "Tooth Filling (Tooth-coloured Composite)",
+      "short_name": "Tooth filling",
+      "aliases": [
+        "filling",
+        "fillings",
+        "cavity",
+        "cavities",
+        "composite filling",
+        "dental filling",
+        "tooth colored filling",
+        "tooth coloured filling"
+      ],
+      "price_min": 1000,
+      "price_max": 3000,
+      "price_unit": "per tooth",
+      "price_notes": "The price depends on the size and position of the cavity.",
+      "duration": "30 to 45 minutes",
+      "description": "Removal of decay and restoration of the tooth with a tooth-coloured filling material.",
+      "handled_by": ["dr_anjali_deshmukh", "dr_rahul_kulkarni"],
+      "dummy": true
+    },
+    {
+      "id": "root_canal",
+      "name": "Root Canal Treatment (RCT)",
+      "short_name": "Root canal (RCT)",
+      "aliases": [
+        "root canal",
+        "rct",
+        "rootcanal",
+        "root canal treatment",
+        "nerve treatment",
+        "endodontic treatment"
+      ],
+      "price_min": 4000,
+      "price_max": 9000,
+      "price_unit": "per tooth",
+      "price_notes": "Front teeth are at the lower end of the range and back teeth cost more. A crown, if advised, is charged separately.",
+      "duration": "1 to 3 visits of 45 to 60 minutes each",
+      "description": "Treatment that cleans the infected inside of a tooth and seals it, so the tooth can be saved instead of removed. It is done under local anaesthesia.",
+      "handled_by": ["dr_rahul_kulkarni"],
+      "dummy": true
+    },
+    {
+      "id": "crown",
+      "name": "Dental Crown (Cap)",
+      "short_name": "Dental crown",
+      "aliases": ["crown", "crowns", "cap", "caps", "tooth cap", "dental cap"],
+      "price_min": 3500,
+      "price_max": 12000,
+      "price_unit": "per tooth",
+      "price_notes": "The price depends on the crown material.",
+      "variants": [
+        { "name": "Metal-ceramic (PFM) crown", "price_min": 3500, "price_max": 6000 },
+        { "name": "Zirconia crown", "price_min": 7000, "price_max": 12000 }
+      ],
+      "duration": "2 visits, about 5 to 7 days apart",
+      "description": "A cap placed over a damaged or weak tooth to restore its shape, strength and appearance.",
+      "handled_by": ["dr_anjali_deshmukh", "dr_rahul_kulkarni"],
+      "dummy": true
+    },
+    {
+      "id": "extraction",
+      "name": "Tooth Extraction",
+      "short_name": "Tooth extraction",
+      "aliases": [
+        "extraction",
+        "tooth extraction",
+        "tooth removal",
+        "remove tooth",
+        "pull tooth",
+        "wisdom tooth",
+        "wisdom teeth",
+        "tooth pulling"
+      ],
+      "price_min": 800,
+      "price_max": 8000,
+      "price_unit": "per tooth",
+      "price_notes": "The price depends on how difficult the extraction is. The dentist confirms this after an X-ray.",
+      "variants": [
+        { "name": "Simple extraction", "price_min": 800, "price_max": 1500 },
+        { "name": "Surgical or wisdom tooth removal", "price_min": 3000, "price_max": 8000 }
+      ],
+      "duration": "20 to 60 minutes",
+      "description": "Gentle removal of a tooth that cannot be saved, or of a wisdom tooth that is causing problems, under local anaesthesia.",
+      "handled_by": ["dr_sameer_patil"],
+      "dummy": true
+    },
+    {
+      "id": "whitening",
+      "name": "Teeth Whitening",
+      "short_name": "Teeth whitening",
+      "aliases": ["whitening", "teeth whitening", "bleaching", "whiten", "teeth bleaching", "brighten teeth"],
+      "price_min": 6000,
+      "price_max": 12000,
+      "price_unit": "per full-mouth session",
+      "price_notes": "A check-up is done first to make sure whitening is suitable for you.",
+      "duration": "about 60 minutes",
+      "description": "Professional whitening that lightens stains from tea, coffee and ageing, done under the dentist's supervision.",
+      "handled_by": ["dr_anjali_deshmukh"],
+      "dummy": true
+    },
+    {
+      "id": "braces",
+      "name": "Braces (Orthodontic Treatment)",
+      "short_name": "Braces",
+      "aliases": [
+        "braces",
+        "brace",
+        "metal braces",
+        "ceramic braces",
+        "orthodontic",
+        "orthodontics",
+        "teeth straightening",
+        "crooked teeth",
+        "teeth alignment"
+      ],
+      "price_min": 30000,
+      "price_max": 80000,
+      "price_unit": "for the full treatment",
+      "price_notes": "The final cost depends on the complexity of your case and the type of braces.",
+      "variants": [
+        { "name": "Metal braces", "price_min": 30000, "price_max": 50000 },
+        { "name": "Ceramic (tooth-coloured) braces", "price_min": 50000, "price_max": 80000 }
+      ],
+      "duration": "usually 12 to 24 months, with a visit about once a month",
+      "description": "Orthodontic treatment that gradually straightens crooked teeth and corrects bite problems.",
+      "handled_by": ["dr_neha_joshi"],
+      "dummy": true
+    },
+    {
+      "id": "aligners",
+      "name": "Clear Aligners",
+      "short_name": "Clear aligners",
+      "aliases": ["aligner", "aligners", "clear aligners", "invisalign", "invisible braces", "clear braces"],
+      "price_min": 90000,
+      "price_max": 200000,
+      "price_unit": "for the full treatment",
+      "price_notes": "The final cost depends on how many aligner sets your case needs.",
+      "duration": "usually 6 to 18 months",
+      "description": "Nearly invisible, removable trays that gradually move your teeth into position.",
+      "handled_by": ["dr_neha_joshi"],
+      "dummy": true
+    },
+    {
+      "id": "implant",
+      "name": "Dental Implants",
+      "short_name": "Dental implants",
+      "aliases": ["implant", "implants", "dental implant", "tooth implant", "missing tooth", "replace tooth"],
+      "price_min": 25000,
+      "price_max": 45000,
+      "price_unit": "per implant",
+      "price_notes": "This covers the implant itself. The crown that goes on top is charged separately.",
+      "duration": "2 to 4 visits spread over 3 to 6 months",
+      "description": "A titanium post placed in the jaw to replace a missing tooth root, topped with a crown.",
+      "handled_by": ["dr_sameer_patil"],
+      "dummy": true
+    },
+    {
+      "id": "dentures",
+      "name": "Dentures (Removable Teeth)",
+      "short_name": "Dentures",
+      "aliases": ["denture", "dentures", "false teeth", "artificial teeth", "removable teeth"],
+      "price_min": 8000,
+      "price_max": 25000,
+      "price_unit": "per jaw",
+      "price_notes": "The price depends on the material and the number of teeth being replaced.",
+      "duration": "3 to 4 visits over about 2 weeks",
+      "description": "Removable replacement teeth, made to fit your mouth comfortably.",
+      "handled_by": ["dr_anjali_deshmukh", "dr_sameer_patil"],
+      "dummy": true
+    },
+    {
+      "id": "kids",
+      "name": "Children's Dentistry",
+      "short_name": "Children's dentistry",
+      "aliases": [
+        "kids",
+        "kid",
+        "child",
+        "children",
+        "pediatric",
+        "paediatric",
+        "baby teeth",
+        "milk teeth",
+        "toddler"
+      ],
+      "price_min": 500,
+      "price_max": 1500,
+      "price_unit": "per visit (check-up, cleaning or fluoride application)",
+      "price_notes": "Fillings and other treatments for children are priced separately.",
+      "duration": "20 to 30 minutes",
+      "description": "Friendly, gentle dental care for children, including check-ups, cleaning, fluoride application and preventive advice.",
+      "handled_by": ["dr_pooja_bhosale"],
+      "dummy": true
+    },
+    {
+      "id": "xray",
+      "name": "Dental X-ray",
+      "short_name": "Dental X-ray",
+      "aliases": ["x ray", "xray", "x-ray", "opg", "iopa", "radiograph"],
+      "price_min": 200,
+      "price_max": 1000,
+      "price_unit": "per X-ray",
+      "price_notes": "The dentist decides which X-ray you need.",
+      "variants": [
+        { "name": "IOPA (single tooth) X-ray", "price_min": 200, "price_max": 300 },
+        { "name": "OPG (full mouth) X-ray", "price_min": 800, "price_max": 1000 }
+      ],
+      "duration": "about 5 minutes",
+      "description": "A quick digital X-ray that helps the dentist see what is happening under the surface of your teeth.",
+      "handled_by": ["dr_anjali_deshmukh"],
+      "dummy": true
+    }
+  ]
+}

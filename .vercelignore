@@ -1,0 +1,10 @@
+.venv
+tests
+qa
+submission
+documentation
+clinic_ai.db*
+.env
+.pytest_cache
+*.pyc
+__pycache__

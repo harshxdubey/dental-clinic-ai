@@ -1,0 +1,157 @@
+{
+  "_notice": "Contains DUMMY SAMPLE entries (marked \"dummy\": true). They are not real clinic information - replace them before real use.",
+  "faqs": [
+    {
+      "id": "walk_in",
+      "question": "Do you accept walk-ins?",
+      "keywords": ["walk in", "walkin", "without appointment", "no appointment", "drop in"],
+      "answer": "Yes, walk-ins are welcome on a first-come basis. Appointments are given priority, so booking ahead helps you avoid waiting. Sunday visits are by appointment only.",
+      "dummy": true
+    },
+    {
+      "id": "first_visit",
+      "question": "What should I bring for my first visit?",
+      "keywords": [
+        "first visit",
+        "what to bring",
+        "what should i bring",
+        "documents",
+        "old reports",
+        "previous x ray",
+        "carry"
+      ],
+      "answer": "Please bring a photo ID, any previous dental reports or X-rays, and a list of the medicines you currently take.",
+      "dummy": true
+    },
+    {
+      "id": "rct_pain",
+      "question": "Is root canal treatment painful?",
+      "keywords": [
+        "root canal painful",
+        "rct painful",
+        "rct pain",
+        "root canal pain",
+        "does root canal hurt",
+        "does rct hurt",
+        "painful root canal"
+      ],
+      "answer": "Root canal treatment is done under local anaesthesia, so most patients feel little or no pain during the procedure. Some mild soreness afterwards is common, and the dentist will explain the aftercare to you.",
+      "dummy": true
+    },
+    {
+      "id": "whitening_last",
+      "question": "How long do teeth whitening results last, and is it safe?",
+      "keywords": [
+        "whitening last",
+        "whitening results",
+        "how long whitening",
+        "whitening safe",
+        "is whitening safe",
+        "whitening side effects",
+        "whitening permanent"
+      ],
+      "answer": "Whitening results usually last 6 to 12 months, depending on habits such as tea, coffee and smoking. Professional whitening is done under the dentist's supervision after a check-up, to make sure it is suitable for you.",
+      "dummy": true
+    },
+    {
+      "id": "emi",
+      "question": "Do you offer EMI or instalment plans?",
+      "keywords": ["emi", "instalment", "installment", "pay in parts", "no cost emi", "pay later"],
+      "answer": "For larger treatments such as braces, aligners and implants, instalment plans can be discussed at your consultation. Please ask our reception team for details.",
+      "dummy": true
+    },
+    {
+      "id": "sterilisation",
+      "question": "How do you keep your instruments sterile?",
+      "keywords": [
+        "sterile",
+        "sterilisation",
+        "sterilization",
+        "hygiene",
+        "hygienic",
+        "autoclave",
+        "infection control",
+        "clean instruments"
+      ],
+      "answer": "All reusable instruments are cleaned and sterilised in an autoclave after every patient. We use fresh disposable gloves, masks and suction tips for each visit.",
+      "dummy": true
+    },
+    {
+      "id": "kids_age",
+      "question": "From what age can I bring my child to the dentist?",
+      "keywords": [
+        "child age",
+        "kids age",
+        "what age",
+        "first dental visit child",
+        "baby first visit",
+        "age for dentist",
+        "toddler dentist"
+      ],
+      "answer": "We recommend a first dental visit around your child's first birthday, or when the first tooth appears. Our paediatric dentist sees children on selected days, so please ask us for the schedule.",
+      "dummy": true
+    },
+    {
+      "id": "xray_safety",
+      "question": "Are dental X-rays safe?",
+      "keywords": ["x ray safe", "xray safe", "radiation", "x ray harmful", "xray harmful", "x ray side effects"],
+      "answer": "Dental X-rays use a very low dose of radiation, and we use a protective lead apron. We only take an X-ray when the dentist feels it is necessary.",
+      "dummy": true
+    },
+    {
+      "id": "reports",
+      "question": "Can I get copies of my X-rays and treatment records?",
+      "keywords": [
+        "x ray copy",
+        "xray copy",
+        "copy of report",
+        "digital copy",
+        "my records",
+        "treatment records",
+        "get my reports"
+      ],
+      "answer": "Yes, digital copies of your X-rays and treatment records can be shared with you on WhatsApp or email on request.",
+      "dummy": true
+    },
+    {
+      "id": "visit_length",
+      "question": "How long does a typical appointment take?",
+      "keywords": [
+        "how long appointment",
+        "how long is the visit",
+        "appointment duration",
+        "how much time will it take",
+        "how long will i be there"
+      ],
+      "answer": "A check-up usually takes 20 to 30 minutes. Treatment visits typically take 30 to 60 minutes, depending on the procedure.",
+      "dummy": true
+    },
+    {
+      "id": "languages",
+      "question": "Do your doctors speak Hindi or Marathi?",
+      "keywords": ["speak hindi", "speak marathi", "hindi", "marathi", "which languages", "language"],
+      "answer": "Yes, our team speaks English, Hindi and Marathi.",
+      "dummy": true
+    },
+    {
+      "id": "booking_advance",
+      "question": "How far in advance should I book?",
+      "keywords": [
+        "how far in advance",
+        "book in advance",
+        "how early should i book",
+        "advance booking",
+        "how soon can i get an appointment"
+      ],
+      "answer": "For check-ups and cleaning, booking 1 to 2 days ahead is usually enough. For braces, aligners, implants and other planned treatments, please book about a week ahead.",
+      "dummy": true
+    },
+    {
+      "id": "reminders",
+      "question": "Do you send appointment reminders?",
+      "keywords": ["appointment reminder", "appointment reminders", "reminders", "remind me", "reminder message"],
+      "answer": "Yes, our reception team sends a WhatsApp reminder the day before your appointment. Please reply to confirm, or tell us if you need to reschedule.",
+      "dummy": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Render "Blueprint": New + > Blueprint > pick this repository. Free plan is enough for a demo.
+services:
+  - type: web
+    name: dental-clinic-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: WHATSAPP_MODE
+        value: simulated
+      - key: ALLOW_PUBLIC_DASHBOARD    # demo with DUMMY data only; the dashboard has no login
+        value: "true"
+      - key: SEED_DEMO_ON_START
+        value: "true"

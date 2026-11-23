@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reception Dashboard – Dental Clinic AI</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230e7c86'/%3E%3Cpath fill='white' d='M12 6.2c-1-.8-2.3-1.2-3.6-1C6.4 5.5 5.4 7.3 5.6 9.4c.2 1.9.9 2.9 1.3 4.6.4 1.7.5 4.9 1.9 4.9 1.4 0 1.1-3 1.9-3.8.4-.5.8-.8 1.3-.8s.9.3 1.3.8c.8.8.5 3.8 1.9 3.8 1.4 0 1.5-3.2 1.9-4.9.4-1.7 1.1-2.7 1.3-4.6.2-2.1-.8-3.9-2.8-4.2-1.3-.2-2.6.2-3.6 1z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="/">
+        <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 5.2c-1-.8-2.3-1.2-3.6-1C6.4 4.5 5.4 6.3 5.6 8.4c.2 1.9.9 2.9 1.3 4.6.4 1.7.5 4.9 1.9 4.9 1.4 0 1.1-3 1.9-3.8.4-.5.8-.8 1.3-.8s.9.3 1.3.8c.8.8.5 3.8 1.9 3.8 1.4 0 1.5-3.2 1.9-4.9.4-1.7 1.1-2.7 1.3-4.6.2-2.1-.8-3.9-2.8-4.2-1.3-.2-2.6.2-3.6 1z"/></svg></div>
+        <div><div class="brand-name">Reception Dashboard</div><div class="brand-sub" id="clinicName">Dental Clinic AI Assistant</div></div>
+      </a>
+
+      <div class="tags">
+        <span class="chip chip-warn" id="waChip">WhatsApp is simulated</span>
+        <span class="chip chip-warn" id="dummyChip">Dummy clinic data</span>
+        <span class="chip chip-neutral" id="aiModeChip">AI mode</span>
+      </div>
+
+      <div class="top-actions">
+        <span class="live" id="live" title="The dashboard refreshes by itself every 3 seconds"><i></i><span>Live</span></span>
+        <label class="switch" title="When off, the assistant never replies by itself – every reply waits for your approval.">
+          <input type="checkbox" id="autoToggle" role="switch" checked>
+          <span class="track"></span>
+          <span class="switch-label">AI auto-reply</span>
+        </label>
+        <a class="btn btn-sm" href="/knowledge/">Knowledge base</a>
+        <a class="btn btn-sm" href="/chat/" target="_blank" rel="noopener">Patient chat ↗</a>
+        <details class="menu" id="demoMenu">
+          <summary class="btn btn-sm">Demo tools ▾</summary>
+          <div class="menu-pop">
+            <button type="button" id="seedBtn">Load sample conversations</button>
+            <button type="button" id="resetBtn" class="danger">Reset all demo data…</button>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <section class="stats" id="stats" aria-label="Today at a glance"></section>
+
+    <div class="inbox" id="inbox">
+      <aside class="list-col" aria-label="Messages">
+        <nav class="tabs" id="tabs" role="tablist" aria-label="Filter messages"></nav>
+        <div class="list" id="list"></div>
+      </aside>
+      <section class="detail-col" id="detail" aria-live="polite"></section>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script src="dashboard.js"></script>
+</body>
+</html>

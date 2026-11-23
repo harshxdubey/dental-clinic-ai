@@ -1,0 +1,23 @@
+{
+  "_notice": "Contains DUMMY SAMPLE entries (marked \"dummy\": true). They are not real clinic information - replace them before real use.",
+  "clinic_name": "Sample Dental Clinic, Pune",
+  "short_name": "Sample Dental Clinic",
+  "tagline": "Gentle, modern dental care in Baner, Pune",
+  "address": "Shop 12, Sample Plaza, Baner Road, Baner, Pune - 411045",
+  "landmark": "Opposite Sample Mall, next to Sample Pharmacy",
+  "maps_link": "https://maps.example.com/sample-dental-clinic-pune",
+  "parking": "Free two-wheeler parking is available in front of the building. Four-wheeler parking is available in the Sample Plaza basement.",
+  "phone": "+91 90000 00000",
+  "email": "hello@sample-dental-clinic.example",
+  "timings": [
+    { "days": "Monday to Saturday", "hours": "10:00 AM to 8:00 PM" },
+    { "days": "Sunday", "hours": "10:00 AM to 2:00 PM (by appointment only)" }
+  ],
+  "closed_note": "The clinic is closed on major public holidays.",
+  "emergency_note": "If you have heavy bleeding, swelling that makes it hard to breathe or swallow, or an injury to your face or jaw, please go to the nearest hospital emergency department immediately.",
+  "payment_methods": ["Cash", "UPI (GPay, PhonePe, Paytm)", "Debit and credit cards"],
+  "insurance_note": "We do not currently offer cashless insurance. We can give you an itemised bill and receipts that you can use to claim reimbursement from your insurer.",
+  "languages": ["English", "Hindi", "Marathi"],
+  "appointment_policy": "Appointments are confirmed by our reception team. Please arrive 10 minutes early for your first visit. If you need to cancel or reschedule, please tell us at least 4 hours before your slot.",
+  "dummy": true
+}
